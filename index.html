@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Agustina Goitea</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hola">Hola</a></li>
+                <li><a href="#conocimientos">Conocimientos</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li class="boton-contacto"><a href="#contacto">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hola" class="flex-hola">
+            <div class="hola-txt">
+                <h2>Hola! Soy</h2>
+                <h1>Agustina Goitea</h1>
+                <h4>Desarrolladora, bailarina de tango y viajera</h4>
+                <button><a href="#proyectos">Mira lo que hago</a></button>
+            </div>
+            <div>
+                <img src="imagenes/mujer2.png" alt="mi foto" width="500px">
+            </div>
+        </section>
+
+        <section id="conocimientos" class="sec-conoc">
+            <h3>Conocimientos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aut.</p>
+            <div class="flex-conoc">
+                <div>
+                    <i class="fa-brands fa-html5 fa-5x"></i>
+                    <p>HMTL 5</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-sass fa-5x"></i>
+                    <p>SASS</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt fa-5x"></i>
+                    <p>CSS 3</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js fa-5x"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react fa-5x"></i>
+                    <p>React</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-git-alt fa-5x"></i>
+                    <p>Git</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="sec-cita">
+            <i class="fa-solid fa-quote-right fa-7x"></i>
+            <p>El mundo pertenece a aquellos que se atreven.</p>
+            <h4>Charles Chaplin</h4>
+        </section>
+
+        <section id="proyectos" class="sec-proy">
+            <h3>Proyectos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ex suscipit cumque qui error? Eos alias
+                sequi nemo provident earum?</p>
+            <div class="flex-proy">
+                <p><img src="imagenes/proyecto.jpg" alt="proyecto1" width="200px">Proyecto1</p>
+                <p><img src="imagenes/proyecto.jpg" alt="proyecto2" width="200px">Proyecto2</p>
+                <p><img src="imagenes/proyecto.jpg" alt="proyecto3" width="200px">Proyecto3</p>
+                <p><img src="imagenes/proyecto.jpg" alt="proyecto4" width="200px">Proyecto4</p>
+                <p><img src="imagenes/proyecto.jpg" alt="proyecto5" width="200px">Proyecto5</p>
+                <p><img src="imagenes/proyecto.jpg" alt="proyecto6" width="200px">Proyecto6</p>
+            </div>
+        </section>
+
+        <section id="contacto" class="sec-cont">
+            <div class="flex-contacto">
+                <div class="cont-redes">
+                    <h3>Contactame</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, suscipit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, suscipit.</p>
+                    <div class="redes">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>agustina goitea</span>
+                        <i class="fa-brands fa-square-github"></i>
+                        <i class="fa-solid fa-square-envelope"></i>
+                    </div>
+                </div>
+                <div>
+                    <h3>Escribime</h3>
+                    <form>
+                        <fieldset>
+                            <div class="input">
+                                <div>
+                                    <label for="name" class="label">Nombre *</label>
+                                    <input id="name" type="text" name="name" required>
+                                </div>
+                                <div>
+                                    <label for="surname" class="label">Apellido</label>
+                                    <input id="surname" type="text" name="surname">
+                                </div>
+                            </div>
+                            <label for="email" class="label">Email *</label>
+                            <input id="email" type="text" name="email"  required>
+                            <label for="message" class="label">Mensaje *</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </fieldset>
+                        <legend>* campos obligatorios</legend>
+                        <input id="submit" type="submit" value ="Enviar"/>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <ul class="foot1">
+            <li>Hola</li>
+            <li>Conocimientos</li>
+            <li>Proyectos</li>
+            <li>Contactos</li>
+        </ul>
+        <div class="foot2">
+            <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/"></a></i>
+            <i class="fa-brands fa-square-github"></i>
+            <i class="fa-solid fa-square-envelope"></i>
+        </div>
+        <h6>Hecho por mi</h6>
+    </footer>
+
+
+</body>
+
+</html>

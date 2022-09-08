@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: source sans pro;
+}
+
+:root {
+    --gris: rgb(71, 71, 71);
+    
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(172, 220, 220);
+    position: fixed;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 150px;
+   
+}
+
+header nav ul li {
+    padding: 15px;
+    list-style: none;
+    margin: 15px;
+    font-family: source sans pro;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+header nav ul li :link {
+    color: var(--gris);
+    text-decoration: none;
+}
+
+header nav ul li :visited {
+    color: var(--gris);
+}
+
+
+.boton-contacto {
+    border-radius: 30px;
+    background-color: beige;
+}
+
+/* HOLA */
+
+.flex-hola {
+    background-color: rgb(170, 163, 163);
+    display: flex;
+    padding: 250px 150px;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.hola-txt {
+    width: 600px;
+
+}
+
+h2 {
+    font-size: 40px;
+    font-family: archivo narrow;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 80px;
+    padding-bottom: 5px;
+    font-family: lora;
+    font-style: italic;
+}
+
+
+.flex-hola h4 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: archivo narrow;
+    font-weight: 500;
+    font-style: italic;
+}
+
+button {
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 65px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    font-family: source sans pro;
+}
+
+/* CONOCIMIENTOS */
+
+.sec-conoc {
+    background-color: antiquewhite;
+    padding: 150px 50px;
+    min-height: 100vh;
+    text-align: center; 
+    
+}
+
+.sec-conoc p {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+
+
+.flex-conoc {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 80%;
+    margin: 0% 10%;
+}
+
+.flex-conoc div {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+
+}
+
+.flex-conoc div p {
+    padding-top: 20px;
+}
+
+
+
+
+/* CITA */
+
+.sec-cita {
+    
+    padding: 100px 150px;
+    text-align: center;
+    height: 600px;
+    background-image: url("imagenes/fondorosa.jpg");
+    background-size: cover;
+}
+
+.sec-cita p {
+    font-family: archivo narrow;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 40px;
+}
+
+.sec-cita h4 {
+    padding: 25px;
+    font-size: 30px;
+    font-family: source sans pro;
+    text-align: right;
+    
+}
+
+/* PROYECTO */
+
+.sec-proy {
+    background-color: lightcyan;
+    text-align: center;
+    padding: 150px 50px;
+    min-height: 100vh;
+
+}
+
+.sec-proy p {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.flex-proy {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 0% 10%;
+    background-color: blanchedalmond;
+    
+}
+
+
+
+.flex-proy p {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(114, 114, 164);
+    margin: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+
+
+/* CONTACTO */
+
+.sec-cont {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 150px 35px;
+    min-height: 100vh;
+}
+
+
+.flex-contacto {
+    display: flex;
+    justify-content: center;
+    align-items:initial;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 70px;
+    margin: 0% 10%;
+}
+
+
+
+.flex-contacto div h3 {
+    text-align: left;
+}
+
+.cont-redes {
+    background-color: aquamarine;
+    padding: 0px 50px;
+    height: 100%;
+    text-align: left;
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.redes i {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* FORM */
+
+form {
+    background-color: lightblue;
+    padding: 0px;
+
+}
+
+fieldset {
+    height: 100%;
+    padding: 10px 0px;
+    border: none;
+}
+
+.input {
+    display: flex;
+    gap: 20px;
+}
+
+.label {
+    text-align: left;
+    display: block;
+    background-color: pink;
+}
+
+
+
+#name, #surname {
+    width: 265px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+#email {
+    width: 550px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#message {
+    width: 550px;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+}
+
+legend {
+    text-align: left;
+}
+
+#submit {
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: aquamarine;
+    padding: 30px 450px;
+
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+.foot1 {
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    background-color: aqua;
+
+}
+
+.foot2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: blanchedalmond;
+}
+
+.foot2 i {
+    margin: 25px;
+    cursor: pointer;
+}
+
+footer h6 {
+    text-align: center;
+}
