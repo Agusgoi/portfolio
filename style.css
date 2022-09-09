@@ -92,12 +92,23 @@ h1 {
 button {
     font-size: 20px;
     padding: 15px;
-    margin-top: 65px;
+    margin-top: 20px;
     cursor: pointer;
     border-radius: 30px;
     border: none;
     font-family: source sans pro;
 }
+
+.hola-txt button :link {
+    color: var(--gris);
+    text-decoration: none;
+}
+
+.hola-txt button :visited {
+    color: var(--gris);
+}
+
+
 
 /* CONOCIMIENTOS */
 
@@ -133,7 +144,7 @@ h3 {
 .flex-conoc div {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+    background-color: rgb(224, 233, 230);
     padding: 20px;
     border-radius: 10px;
     width: 250px;
@@ -199,8 +210,7 @@ h3 {
     align-content: center;
     justify-content: center;
     margin: 0% 10%;
-    background-color: blanchedalmond;
-    
+      
 }
 
 
@@ -209,13 +219,17 @@ h3 {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    background-color: rgb(114, 114, 164);
+    background-color: white;
     margin: 20px;
     border-radius: 10px;
     gap: 20px;
+    cursor: pointer;
 }
 
-
+.flex-proy p :hover {
+    border: 1px solid;
+    
+}
 
 /* CONTACTO */
 
@@ -229,15 +243,12 @@ h3 {
 
 .flex-contacto {
     display: flex;
-    justify-content: center;
-    align-items:initial;
+    justify-content: space-around;
     border: 1px solid;
     border-radius: 10px;
     padding: 30px;
-    gap: 70px;
     margin: 0% 10%;
 }
-
 
 
 .flex-contacto div h3 {
@@ -245,30 +256,53 @@ h3 {
 }
 
 .cont-redes {
-    background-color: aquamarine;
+    
     padding: 0px 50px;
-    height: 100%;
     text-align: left;
+    
 }
 
-.redes {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
+.cont-redes p {
+    padding-top: 10px;
 }
 
-.redes i {
-    padding-top: 15px;
-    padding-bottom: 15px;
+
+
+.fa-ul {
+    
+    background-color: rgb(43, 105, 105);
+    font-size: 10px; 
+   
+}
+
+.fa-ul li{
+    background-color: greenyellow;
+  
+}
+
+#icon, #icon2, #icon3, #icon4 {
+    padding-right: 20px;
+}
+
+
+
+
+.fa-ul li button :link{
+    color: var(--gris);
+    text-decoration: none;
+}
+
+
+.fa-ul li button :visited {
+    color: var(--gris);
+}
+
+.fa-ul li button :hover{
+    color: yellow;
 }
 
 /* FORM */
 
-form {
-    background-color: lightblue;
-    padding: 0px;
-
-}
 
 fieldset {
     height: 100%;
@@ -284,7 +318,7 @@ fieldset {
 .label {
     text-align: left;
     display: block;
-    background-color: pink;
+    font-size: 20px;
 }
 
 
@@ -319,7 +353,11 @@ legend {
 
 #submit {
     border: none;
-    border-radius: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-top: 35px;
+    cursor: pointer;
 }
 
 
@@ -327,7 +365,7 @@ legend {
 
 footer {
     background-color: aquamarine;
-    padding: 30px 450px;
+    padding: 80px 450px;
 
 }
 
@@ -339,16 +377,17 @@ footer ul {
 .foot1 {
     justify-content: space-evenly;
     padding: 10px 0px;
-    background-color: aqua;
+}
 
+.foot1 li {
+    font-size: 20px;
 }
 
 .foot2 {
     display: flex;
     justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: blanchedalmond;
+    padding: 20px 0px;
+   
 }
 
 .foot2 i {
@@ -358,4 +397,6 @@ footer ul {
 
 footer h6 {
     text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
 }
