@@ -33,7 +33,7 @@
                 <h4>Desarrolladora, bailarina de tango y viajera</h4>
                 <button><a href="#proyectos">Mira lo que hago</a></button>
             </div>
-            <div>
+            <div id="mujer">
                 <img src="imagenes/mujer2.png" alt="mi foto" width="500px">
             </div>
         </section>
@@ -71,7 +71,7 @@
 
 
         <section class="sec-cita">
-            <i class="fa-solid fa-quote-right fa-7x"></i>
+            <i class="fa-solid fa-quote-right"></i>
             <p>El mundo pertenece a aquellos que se atreven.</p>
             <h4>Charles Chaplin</h4>
         </section>
@@ -81,12 +81,12 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ex suscipit cumque qui error? Eos alias
                 sequi nemo provident earum?</p>
             <div class="flex-proy">
-                <p><img src="imagenes/proyecto.jpg" alt="proyecto1" width="200px">Proyecto1</p>
-                <p><img src="imagenes/proyecto.jpg" alt="proyecto2" width="200px">Proyecto2</p>
-                <p><img src="imagenes/proyecto.jpg" alt="proyecto3" width="200px">Proyecto3</p>
-                <p><img src="imagenes/proyecto.jpg" alt="proyecto4" width="200px">Proyecto4</p>
-                <p><img src="imagenes/proyecto.jpg" alt="proyecto5" width="200px">Proyecto5</p>
-                <p><img src="imagenes/proyecto.jpg" alt="proyecto6" width="200px">Proyecto6</p>
+                <div class="p"><img src="imagenes/proyecto.jpg" alt="proyecto1" width="200px">Proyecto1</div>
+                <div class="p"><img src="imagenes/proyecto.jpg" alt="proyecto2" width="200px">Proyecto2</div>
+                <div class="p"><img src="imagenes/proyecto.jpg" alt="proyecto3" width="200px">Proyecto3</div>
+                <div class="p"><img src="imagenes/proyecto.jpg" alt="proyecto4" width="200px">Proyecto4</div>
+                <div class="p"><img src="imagenes/proyecto.jpg" alt="proyecto5" width="200px">Proyecto5</div>
+                <div class="p"><img src="imagenes/proyecto.jpg" alt="proyecto6" width="200px">Proyecto6</div>
             </div>
         </section>
 
@@ -98,9 +98,9 @@
                         amet consectetur adipisicing elit. Placeat, suscipit.</p>
                     <ul class="fa-ul">
                         <li><button><a href="https://www.linkedin.com/in/agustina-goitea/"><i id="icon"
-                                        class="fa-brands fa-linkedin-in"></i>agustina-goitea</a></button></li>
+                                        class="fa-brands fa-linkedin-in"></i>/agustina-goitea</a></button></li>
                         <li><button><a href="https://twitter.com"><i id="icon2"
-                                        class="fa-brands fa-twitter"></i>AgusGoi</a></button></li>
+                                        class="fa-brands fa-twitter"></i>@AgusGoi</a></button></li>
                         <li><button><a href="https://github.com/Agusgoi"><i id="icon3"
                                         class="fa-brands fa-github-alt"></i>Agusgoi</a></button></li>
                         <li><button><a href="https://outlook.live.com/mail/"><i id="icon4"
@@ -112,11 +112,11 @@
                     <form>
                         <fieldset>
                             <div class="input">
-                                <div>
+                                <div class="input1">
                                     <label for="name" class="label">Nombre *</label>
                                     <input id="name" type="text" name="name" required>
                                 </div>
-                                <div>
+                                <div class="input2">
                                     <label for="surname" class="label">Apellido</label>
                                     <input id="surname" type="text" name="surname">
                                 </div>
@@ -124,7 +124,7 @@
                             <label for="email" class="label">Email *</label>
                             <input id="email" type="text" name="email" required>
                             <label for="message" class="label">Mensaje *</label>
-                            <textarea id="message" name="message" required></textarea>
+                            <textarea id="message" name="message" placeholder="Escribí aca tu mensaje..." required></textarea>
                         </fieldset>
                         <legend>* campos obligatorios</legend>
                         <input id="submit" type="submit" value="Enviar" />
@@ -137,10 +137,10 @@
 
     <footer>
         <ul class="foot1">
-            <li>Hola</li>
-            <li>Conocimientos</li>
-            <li>Proyectos</li>
-            <li>Contactos</li>
+            <li><a href="#hola">Hola</a></li>
+            <li><a href="#conocimientos">Conocimientos</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contactos</a></li> 
         </ul>
         <ul class="foot2">
             <li><a href="https://www.linkedin.com/in/agustina-goitea/"><i
@@ -157,3 +157,4 @@
 </body>
 
 </html>
+
