@@ -6,17 +6,18 @@
 }
 
 :root {
-    --gris: rgb(71, 71, 71);
+    --gris: rgb(58, 58, 58);
 
 }
 
 /* HEADER */
 
 header {
-    background-color: rgb(172, 220, 220);
     position: fixed;
     width: 100%;
     z-index: 1000;
+    background-image: url("imagenes/fondo-nav-2.jpg");
+    background-size: cover;
 }
 
 header nav ul {
@@ -48,13 +49,13 @@ header nav ul li :visited {
 
 .boton-contacto {
     border-radius: 30px;
-    background-color: beige;
+background-color: rgb(237, 236, 236);
 }
 
 /* HOLA */
 
 .flex-hola {
-    background-color: rgb(170, 163, 163);
+    background-color: rgb(167, 162, 162);
     display: flex;
     padding: 250px 150px;
     justify-content: space-around;
@@ -120,7 +121,7 @@ button {
 /* CONOCIMIENTOS */
 
 .sec-conoc {
-    background-color: antiquewhite;
+    background-color: rgb(236, 234, 234);
     padding: 150px 50px;
     text-align: center;
 
@@ -150,7 +151,7 @@ h3 {
 .flex-conoc div {
     display: flex;
     flex-direction: column;
-    background-color: rgb(91, 126, 114);
+    background-color: rgb(134, 155, 133);
     padding: 20px;
     border-radius: 10px;
     width: 250px;
@@ -162,15 +163,18 @@ h3 {
 }
 
 .flex-conoc div:hover {
-    background-color: pink;
+    background-color: rgb(186, 200, 185);
     box-shadow: 15px 15px 20px grey;
 }
 
 .flex-conoc div p {
     padding-top: 20px;
+   
 }
 
-
+.flex-conoc i {
+    font-size: 80px;
+}
 
 
 /* CITA */
@@ -207,7 +211,7 @@ h3 {
 /* PROYECTO */
 
 .sec-proy {
-    background-color: lightcyan;
+    background-color: rgb(236, 234, 234);
     text-align: center;
     padding: 150px 50px;
     min-height: 100vh;
@@ -230,14 +234,13 @@ h3 {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    background-color: white;
     margin: 20px;
     border-radius: 10px;
     gap: 20px;
     cursor: pointer;
-    background-color: aqua;
     font-size: 15px;
     width: 250px;
+    background-color: rgb(228, 217, 217);
 }
 
 .flex-proy div img {
@@ -246,14 +249,14 @@ h3 {
 
 
 .flex-proy .p:hover {
-    background-color: pink;
+    background-color: rgb(167, 162, 162);
     box-shadow: 15px 15px 20px grey;
 }
 
 /* CONTACTO */
 
 .sec-cont {
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(167, 162, 162);
     text-align: center;
     padding: 150px 35px;
 }
@@ -316,12 +319,12 @@ h3 {
 
 
 .fa-ul li button :hover {
-    color: yellow;
+    color:black;
 }
 
 .fa-ul li button:hover,
 .fa-ul li button:focus {
-    box-shadow: 0 0.5em 0.5em -0.4em orange;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(255, 255, 255);
     transform: translateY(-0.15em);
 }
 
@@ -334,6 +337,9 @@ fieldset {
     height: 100%;
     padding: 10px 0px;
     border: none;
+    border-color: var(--gris);
+    
+    
 }
 
 .input {
@@ -345,6 +351,7 @@ fieldset {
     text-align: left;
     display: block;
     font-size: 20px;
+    
 }
 
 
@@ -359,6 +366,7 @@ fieldset {
     outline: none;
     padding: 10px;
     font-size: 15px;
+    color: white;
 }
 
 
@@ -366,7 +374,8 @@ input:hover,
 textarea:hover,
 .input1 #name:hover,
 .input2 #surname:hover {
-    background-color: yellow;
+    background-color: var(--gris);
+    
 }
 
 #email {
@@ -378,6 +387,7 @@ textarea:hover,
     outline: none;
     padding: 10px;
     font-size: 15px;
+    color: white;
 }
 
 #message {
@@ -388,6 +398,7 @@ textarea:hover,
     outline: none;
     padding: 10px;
     font-size: 15px;
+    color: white;
 }
 
 
@@ -403,14 +414,22 @@ legend {
     padding: 10px 40px;
     margin-top: 25px;
     cursor: pointer;
+    color: var(--gris);
 }
 
+#submit:hover,
+#submit:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(255, 255, 255);
+    transform: translateY(-0.15em);
+    color: white;
+}
 
 /* FOOTER */
 
 footer {
-    background-color: aquamarine;
     padding: 80px 450px;
+    background-image: url("imagenes/footer-2.jpg");
+    background-size: cover;
 
 }
 
@@ -662,9 +681,15 @@ footer h6 {
 @media screen and (max-width: 480px) {
 
     /*max-width 480px - Nav*/
+
+    header {
+        z-index: 1000;
+    }
+
     header nav ul {
         padding: 0px 10px;
         justify-content: center
+        
     }
 
     header nav ul li {
@@ -672,8 +697,6 @@ footer h6 {
         margin: 10px 0px;
         font-size: 15px;
     }
-
-
 
     /*max-width 480px - Hola*/
 
@@ -713,65 +736,180 @@ footer h6 {
     }
     
 
-    /*
+/*max-width 480px - Conocimientos*/
+
+    .sec-conoc {
+        padding: 70px 20px;
+    }
+
+    h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
     
+    .sec-conoc p {
+        margin-bottom: 10px;
+    }
 
+    .flex-conoc {
+        padding: 10px;
+    }
 
+    .flex-conoc div {
+        width: 130px;
+        height: 110px;
+        margin: 10px;
+    }
 
+    .flex-conoc i {
+        font-size: 40px;
+    }
 
+    /*max-width 480px - Cita*/
 
-/* CONOCIMIENTOS */
-/*
-.sec-conoc {
-    background-color: antiquewhite;
-    padding: 150px 50px;
-    text-align: center;
+    .sec-cita {
+        padding: 30px 20px;
+        height: 250px;
+    }
+    .sec-cita p {
+        font-size: 30px;
+        padding-top: 15px;
+    }
 
+    .sec-cita h4 {
+        font-size: 17px;
+    }
+
+    .sec-cita i {
+        font-size: 40px;
+    }
+
+    /*max-width 480px - Proyecto*/
+
+    .sec-proy {
+        padding: 70px 20px;
+    }
+
+    .sec-proy p {
+        padding-bottom: 10px;
+    }
+
+    .flex-proy div {
+        width: 130px;
+        padding: 15px;
+        gap: 15px;
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    /*max-width 480px - Contacto*/
+
+    .sec-cont {
+        padding: 70px 20px;
+    }
+
+    .flex-contacto {
+        flex-direction: column;
+        padding: 0px 15px;
+    } 
+
+    .flex-contacto div h3 {
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    .cont-redes {
+        padding: 0px 0px;
+    }  
+        
+    .cont-redes p {
+        padding: 0px;
+        font-size: 14px;
+        text-align: center;
+    }  
+       
+    .fa-ul a {
+        font-size: 12px;
+    }
+
+    .fa-ul{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0% 10%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+/*max-width 480px - Form*/
+
+.input {
+    gap: 10px;
 }
 
-.sec-conoc p {
-    margin-bottom: 20px;
+.label {
+    font-size: 17px;
 }
 
-h3 {
-    font-size: 50px;
-    padding-bottom: 30px;
+#name,
+#surname {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#message {
+    width: 100%;
+    height: 150px;
+}
+
+legend {
+    font-size: 12px;
+}
+
+#submit {
+    font-size: 15px;
+    margin: 15px 0px;
 }
 
 
+/*max-width 480px - Footer*/
 
-.flex-conoc {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    width: 80%;
-    margin: 0% 10%;
+footer {
+    background-color: aquamarine;
+    padding: 20px 50px;
 }
 
-.flex-conoc div {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(91, 126, 114);
-    padding: 20px;
-    border-radius: 10px;
-    width: 250px;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
-
+.foot1 li {
+    font-size: 15px;
 }
 
-.flex-conoc div:hover {
-    background-color: pink;
-    box-shadow: 15px 15px 20px grey;
+.foot2 {
+    padding: 10px 0px;
+    gap: 5px;
 }
 
-.flex-conoc div p {
+.foot2 i {
+    margin: 20px;
+    font-size: 15px;
+}
+
+footer h6 {
+    font-size: 12px;
     padding-top: 20px;
 }
+
+/*
+
+
+
+
     
    
     */
