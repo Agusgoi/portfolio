@@ -15,6 +15,6 @@ Se tomaron las siguientes medidas Query como punto de quiebre:
 # Fuentes 
 
 Estas son las paginas utilizadas en este proyecto:
-- [Font Awesome] (https://fontawesome.com)
-- [CDNJS] (https://cdnjs.com/)
-- [Google Fonts] (https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com)
+- [CDNJS](https://cdnjs.com/)
+- [Google Fonts](https://fonts.google.com/)
