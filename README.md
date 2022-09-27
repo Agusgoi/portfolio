@@ -1,10 +1,10 @@
 # Descripcion
 
-Este portfolio es uno de los proyectos incluidos en el curso de ADA. Aca podes encontrar mis conocimientos adquiridos y otros en proceso de aprendizaje, asi como tambien los proyectos presentados y en curso.
+Este portfolio personal es uno de los proyectos incluidos en el curso de Desarrollador Frontend de ADA. Aca podes encontrar mis conocimientos adquiridos y otros en proceso de aprendizaje, asi como tambien los proyectos presentados y en curso.
 
-# Medidas Query
+# Medias Query
 
-Se tomaron las siguientes medidas Query como punto de quiebre:
+Se tomaron los siguientes breakpoints para aplicar el Responsive Design: 
 
 ## Tablet
 - Max-Width: 880px

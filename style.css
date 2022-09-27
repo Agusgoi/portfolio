@@ -9,7 +9,6 @@
 :root {
     --tipo-gris: rgb(58, 58, 58);
     --fondo-gris: rgb(167, 162, 162);
-
 }
 
 /* HEADER */
@@ -26,7 +25,6 @@ header nav ul {
     display: flex;
     justify-content: flex-end;
     padding: 10px 150px;
-
 }
 
 header nav ul li {
@@ -35,7 +33,6 @@ header nav ul li {
     margin: 15px;
     font-size: 20px;
     cursor: pointer;
-
 }
 
 header nav ul li :link {
@@ -62,15 +59,14 @@ header nav ul li :hover {
 .flex-hola {
     background-color: var(--fondo-gris);
     display: flex;
-    padding: 250px 150px;
+    padding: 250px 150px 250px 150px;
     justify-content: space-around;
     align-items: center;
-
+    min-height: 100vh;
 }
 
 .hola-txt {
     width: 600px;
-
 }
 
 h2 {
@@ -84,7 +80,6 @@ h1 {
     font-family: lora;
     font-style: italic;
 }
-
 
 .flex-hola h4 {
     font-size: 20px;
@@ -127,7 +122,6 @@ button {
     text-align: center;
 }
 
-
 h3 {
     font-size: 50px;
     padding-bottom: 30px;
@@ -158,7 +152,6 @@ h3 {
     align-items: center;
     justify-content: center;
     margin: 20px;
-
 }
 
 .flex-conoc div:hover {
@@ -168,7 +161,7 @@ h3 {
 
 .flex-conoc div p {
     padding-top: 20px;
-    font-size: 20px;   
+    font-size: 20px;
 }
 
 .flex-conoc i {
@@ -179,32 +172,29 @@ h3 {
 /* CITA */
 
 .sec-cita {
-
-    padding: 90px 150px;
+    padding: 100px 150px;
     text-align: center;
-    height: 550px;
+    min-height: 500px;
     background-image: url("imagenes/fondorosa.jpg");
     background-size: cover;
 }
 
 .sec-cita p {
-    font-family: archivo narrow;
+    font-family: lora;
     font-style: italic;
     font-weight: bold;
     font-size: 55px;
-    padding-top: 35px;
+    padding: 70px 0px 35px 0px;
 }
 
 .sec-cita h4 {
-    padding: 25px;
     font-size: 30px;
-    font-family: source sans pro;
-    text-align: right;
-
+    padding-top: 20px;
+    font-weight: lighter;
 }
 
 .sec-cita i {
-    font-size: 110px;
+    font-size: 100px;
 }
 
 /* PROYECTO */
@@ -216,8 +206,7 @@ h3 {
     min-height: 100vh;
 }
 
-
-.flex-proy{
+.flex-proy {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-content: center;
@@ -225,8 +214,6 @@ h3 {
     margin: 0% 20%;
     padding: 20px;
 }
-
-
 
 .flex-proy div {
     display: flex;
@@ -241,15 +228,12 @@ h3 {
     background-color: var(--fondo-gris);
 }
 
-
-
 .flex-proy div img {
     max-width: 100%;
     opacity: 65%;
     border: 1px solid;
     border-color: rgb(199, 193, 193);
 }
-
 
 .flex-proy .p:hover {
     background-color: rgb(199, 193, 193);
@@ -274,7 +258,6 @@ h3 {
     margin: 0% 10%;
 }
 
-
 .flex-contacto div h3 {
     text-align: left;
 }
@@ -282,11 +265,11 @@ h3 {
 .cont-redes {
     padding: 0px 50px;
     text-align: left;
-
 }
 
-.cont-redes .intro{
+.cont-redes .intro {
     text-align: justify;
+    font-size: 17px;
 }
 
 .cont-redes p {
@@ -294,12 +277,9 @@ h3 {
     padding-bottom: 37px;
 }
 
-
 .fa-ul {
     margin-left: 0%;
 }
-
-
 
 .fa-ul a {
     font-size: 20px;
@@ -312,21 +292,17 @@ h3 {
     padding-right: 20px;
 }
 
-
 .fa-ul li button :link {
     color: var(--tipo-gris);
     text-decoration: none;
 }
 
-
 .fa-ul li button :visited {
     color: var(--tipo-gris);
 }
 
-
-
 .fa-ul li button :hover {
-    color:black;
+    color: black;
 }
 
 .fa-ul li button:hover,
@@ -335,18 +311,13 @@ h3 {
     transform: translateY(-0.15em);
 }
 
-
-
 /* FORM */
-
 
 fieldset {
     height: 100%;
     padding: 10px 50px 10px 0px;
     border: none;
     border-color: var(--tipo-gris);
-    
-    
 }
 
 .input {
@@ -358,10 +329,7 @@ fieldset {
     text-align: left;
     display: block;
     font-size: 20px;
-    
 }
-
-
 
 #name,
 #surname {
@@ -376,13 +344,11 @@ fieldset {
     color: white;
 }
 
-
 input:hover,
 textarea:hover,
 .input1 #name:hover,
 .input2 #surname:hover {
     background-color: var(--tipo-gris);
-    
 }
 
 #email {
@@ -407,8 +373,6 @@ textarea:hover,
     font-size: 15px;
     color: white;
 }
-
-
 
 legend {
     text-align: left;
@@ -437,7 +401,6 @@ footer {
     padding: 80px 450px;
     background-image: url("imagenes/footer-2.jpg");
     background-size: cover;
-
 }
 
 footer ul {
@@ -468,7 +431,6 @@ footer ul {
     justify-content: center;
     padding: 20px 0px;
     gap: 40px;
-
 }
 
 .foot2 li {
@@ -479,39 +441,37 @@ footer ul {
     margin: 35px;
     cursor: pointer;
     font-size: 20px;
-
 }
 
 footer h6 {
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     padding-top: 30px;
+    color: var(--tipo-gris);
 }
 
 .foot2 li :link {
     color: var(--tipo-gris);
-
 }
-
 
 .foot2 li :visited {
     color: var(--tipo-gris);
 }
 
-
-
 .foot2 li :hover {
     transform: scale(1.5);
-
 }
 
+
 /*RESPONSIVE DESIGN*/
+
 
 /*MAX-WIDTH 880px*/
 
 @media screen and (max-width: 880px) {
 
     /*max-width 880px - Nav*/
+
     header nav ul {
         padding: 0px 60px;
     }
@@ -524,7 +484,7 @@ footer h6 {
     /*max-width 880px - Hola*/
 
     .flex-hola {
-        padding: 150px 50px;
+        padding: 190px 50px 150px 50px;
     }
 
     .hola-txt {
@@ -558,6 +518,10 @@ footer h6 {
         font-size: 40px;
     }
 
+    .sec-conoc .intro {
+        font-size: 17px;
+    }
+
     .flex-conoc {
         width: 90%;
         margin: 0% 5%;
@@ -578,33 +542,35 @@ footer h6 {
         font-size: 70px;
     }
 
-   
-
     /*max-width 880px - Cita*/
 
     .sec-cita {
         padding: 60px 70px;
-        height: 350px;
+        min-height: 200px;
     }
 
     .sec-cita p {
-        font-size: 40px;
-        padding-top: 60px;
+        font-size: 35px;
+        padding-top: 50px;
     }
 
     .sec-cita h4 {
-        padding: 20px 5px;
+        padding-top: 15px;
         font-size: 20px;
     }
 
     .sec-cita i {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     /*max-width 880px - Proyectos*/
 
     .sec-proy {
         padding: 110px 30px;
+    }
+
+    .sec-proy .intro {
+        font-size: 17px;
     }
 
     .flex-proy {
@@ -635,13 +601,12 @@ footer h6 {
         padding-bottom: 15px;
     }
 
-    .cont-redes .intro{
+    .cont-redes .intro {
         font-size: 15px;
     }
 
     .fa-ul a {
         font-size: 15px;
-
     }
 
     #icon,
@@ -654,7 +619,7 @@ footer h6 {
 
     /*max-width 880px - Form*/
 
-    fieldset{
+    fieldset {
         padding: 10px 0px;
     }
 
@@ -710,8 +675,7 @@ footer h6 {
 
     header nav ul {
         padding: 0px 10px;
-        justify-content: center
-        
+        justify-content: center;
     }
 
     header nav ul li {
@@ -723,11 +687,10 @@ footer h6 {
     /*max-width 480px - Hola*/
 
     .flex-hola {
-        padding: 100px 30px;
+        padding: 120px 30px 100px 30px;
         flex-direction: column;
         justify-content: center;
         width: 100%;
-    
     }
 
     .hola-txt {
@@ -742,12 +705,12 @@ footer h6 {
         font-size: 35px;
     }
 
-    .flex-hola h4{
+    .flex-hola h4 {
         font-size: 17px;
         padding-bottom: 25px;
     }
 
-    button{
+    button {
         font-size: 15px;
         padding: 10px;
         margin-top: 10px;
@@ -756,19 +719,23 @@ footer h6 {
     #mujer {
         width: 350px;
     }
-    
 
-/*max-width 480px - Conocimientos*/
+
+    /*max-width 480px - Conocimientos*/
 
     .sec-conoc {
         padding: 70px 20px;
+    }
+
+    .sec-conoc .intro {
+        font-size: 15px;
     }
 
     h3 {
         font-size: 30px;
         padding-bottom: 20px;
     }
-    
+
     .sec-conoc p {
         margin-bottom: 10px;
     }
@@ -796,12 +763,13 @@ footer h6 {
     /*max-width 480px - Cita*/
 
     .sec-cita {
-        padding: 30px 20px;
+        padding: 30px 30px;
         height: 250px;
     }
+
     .sec-cita p {
-        font-size: 30px;
-        padding-top: 15px;
+        font-size: 25px;
+        padding-top: 20px;
     }
 
     .sec-cita h4 {
@@ -818,15 +786,18 @@ footer h6 {
         padding: 70px 20px;
     }
 
+    .sec-proy .intro{
+        font-size: 15px;
+    }
+
     .sec-proy p {
         padding-bottom: 10px;
     }
 
-    .flex-proy{
+    .flex-proy {
         grid-template-columns: 1fr 1fr;
         margin: 0% 17%;
     }
-    
 
     .flex-proy div {
         width: 130px;
@@ -845,47 +816,47 @@ footer h6 {
     .flex-contacto {
         flex-direction: column;
         padding: 0px 15px;
-    } 
+    }
 
     .flex-contacto div h3 {
         text-align: center;
         padding-top: 15px;
     }
-    
+
     .cont-redes {
         padding: 0px 0px;
-    }  
-        
+    }
+
     .cont-redes .intro {
         padding: 0px;
         font-size: 13px;
         text-align: justify;
-    }  
-       
+    }
+
     .fa-ul a {
         font-size: 10px;
     }
 
-    .fa-ul{
+    .fa-ul {
         display: flex;
         justify-content: center;
         gap: 10px;
         margin: 20px 0px;
     }
-    
 
-/*max-width 480px - Form*/
 
-.input {
-    gap: 10px;
-}
+    /*max-width 480px - Form*/
 
-.label {
-    font-size: 17px;
-}
+    .input {
+        gap: 10px;
+    }
 
-#name,
-#surname {
+    .label {
+        font-size: 17px;
+    }
+
+    #surname, 
+    #name {
     width: 100%;
     height: 30px;
     margin-bottom: 10px;
@@ -938,6 +909,4 @@ footer h6 {
     padding-top: 20px;
 }
 
-
-
-} 
+}
