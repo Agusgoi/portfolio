@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: source sans pro;
+    font-family: 'Source Sans Pro', sans-serif;
     scroll-behavior: smooth;
+   
+
 }
 
 :root {
@@ -34,7 +36,7 @@ header nav ul li {
     margin: 15px;
     font-size: 22px;
     cursor: pointer;
-    
+
 }
 
 header nav ul li :link {
@@ -81,8 +83,8 @@ h2 {
 h1 {
     font-size: 70px;
     padding-bottom: 5px;
-    font-family: lora;
-    font-style: italic;
+    font-family: 'Lora', serif;
+   
 }
 
 .flex-hola h4 {
