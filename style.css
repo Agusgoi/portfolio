@@ -4,13 +4,13 @@
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
     scroll-behavior: smooth;
-   
+    color: #000000;
 
 }
 
 :root {
-    --tipo-gris: rgb(58, 58, 58);
-    --fondo-gris: rgb(167, 162, 162);
+    --tipo-gris: #3a3a3a;
+    --fondo-gris: #a7a2a2;
 }
 
 /* HEADER */
@@ -40,22 +40,22 @@ header nav ul li {
 }
 
 header nav ul li :link {
-    color: var(--tipo-gris);
+    color: #000000;
     text-decoration: none;
 }
 
 header nav ul li :visited {
-    color: var(--tipo-gris);
+    color: #000000;
 }
 
 header nav ul li :hover {
-    text-shadow: 1px 1px 5px white;
+    text-shadow: 1px 1px 5px #ffffff;
 }
 
 
 .boton-contacto {
     border-radius: 30px;
-    background-color: rgb(237, 236, 236);
+    background-color: #edecec;
 }
 
 /* HOLA */
@@ -67,8 +67,6 @@ header nav ul li :hover {
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
-    background-color: antiquewhite;
-
 }
 
 .hola-txt {
@@ -84,7 +82,7 @@ h1 {
     font-size: 70px;
     padding-bottom: 5px;
     font-family: 'Lora', serif;
-   
+    color: var(--tipo-gris);
 }
 
 .flex-hola h4 {
@@ -101,6 +99,7 @@ button {
     cursor: pointer;
     border-radius: 30px;
     border: none;
+    color: var(--tipo-gris);
 }
 
 .hola-txt button :link {
@@ -128,7 +127,7 @@ button {
 /* CONOCIMIENTOS */
 
 .sec-conoc {
-    background-color: rgb(236, 234, 234);
+    background-color: #edecec;
     padding: 10% 5%;
     text-align: center;
     min-height: 100vh;
@@ -156,7 +155,7 @@ h3 {
 .flex-conoc div {
     display: flex;
     flex-direction: column;
-    background-color: rgb(134, 155, 133);
+    background-color: #869b85;
     padding: 20px;
     border-radius: 10px;
     width: 250px;
@@ -167,8 +166,8 @@ h3 {
 }
 
 .flex-conoc div:hover {
-    background-color: rgb(186, 200, 185);
-    box-shadow: 15px 15px 20px grey;
+    background-color: #bac8b9;
+    box-shadow: 15px 15px 20px #808080;
 }
 
 .flex-conoc div p {
@@ -254,12 +253,12 @@ h3 {
     max-width: 100%;
     opacity: 65%;
     border: 1px solid;
-    border-color: rgb(199, 193, 193);
+    border-color: #c7c1c1;
 }
 
 .flex-proy .p:hover {
-    background-color: rgb(199, 193, 193);
-    box-shadow: 15px 15px 20px grey;
+    background-color: #c7c1c1;
+    box-shadow: 15px 15px 20px #808080;
 }
 
 /* CONTACTO */
@@ -329,12 +328,12 @@ h3 {
 }
 
 .fa-ul li button :hover {
-    color: black;
+    color: #000000;
 }
 
 .fa-ul li button:hover,
 .fa-ul li button:focus {
-    box-shadow: 0 0.5em 0.5em -0.4em rgb(255, 255, 255);
+    box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
     transform: translateY(-0.15em);
 }
 
@@ -383,7 +382,7 @@ fieldset {
     outline: none;
     padding: 10px;
     font-size: 15px;
-    color: white;
+    color: #ffffff;
  
 }
 
@@ -396,7 +395,7 @@ fieldset {
     outline: none;
     padding: 10px;
     font-size: 15px;
-    color: white;
+    color: #ffffff;
 }
 
 #message {
@@ -408,7 +407,7 @@ fieldset {
     outline: none;
     padding: 10px;
     font-size: 15px;
-    color: white;
+    color: #ffffff;
 }
 
 
@@ -437,9 +436,9 @@ legend {
 
 #submit:hover,
 #submit:focus {
-    box-shadow: 0 0.5em 0.5em -0.4em rgb(255, 255, 255);
+    box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
     transform: translateY(-0.15em);
-    color: white;
+    color: #ffffff;
 }
 
 /* FOOTER */
