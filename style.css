@@ -115,6 +115,7 @@ button {
     width: 50%;
 }
 
+
 #mujer {
     min-width: 200px;
     max-width: 500px;
@@ -296,12 +297,10 @@ h3 {
 .cont-redes .intro {
     text-align: justify;
     font-size: 17px;
-}
-
-.cont-redes p {
     padding-top: 10px;
     padding-bottom: 37px;
 }
+
 
 .fa-ul {
     margin-left: 0%;
@@ -629,16 +628,10 @@ footer h6 {
     /*max-width 880px - Proyectos*/
 
 
-    .flex-proy {
-        margin: 0% 10%;
-    }
-
     .flex-proy div {
         width: 220px;
         margin: 10px;
     }
-
-
 
 
     /*max-width 880px - Contacto*/
@@ -648,12 +641,9 @@ footer h6 {
  
     }
 
-    .cont-redes p {
-        padding-bottom: 15px;
-    }
-
     .cont-redes .intro {
         font-size: 15px;
+        padding-bottom: 15px;
     }
 
     .fa-ul a {
@@ -667,6 +657,9 @@ footer h6 {
         padding-right: 15px;
     }
 
+    .fa-ul button {
+        padding: 4%;
+    }
 
 
     /*max-width 880px - Form*/
@@ -711,23 +704,265 @@ footer h6 {
 
     footer h6 {
         padding-top: 90px;
-  
+    } 
+}
+
+
+ /*MAX-WIDTH 722px*/
+
+    @media screen and (max-width: 722px) {
+
+    /*max-width 722px - Proyecto*/
+
+    .sec-proy {
+        padding: 10% 0%;
     }
+
+
+    .flex-proy div {
+        padding: 20px;
+        gap: 15px;
+        font-size: 15px;
+        width: 200px;
+    }
+
+   /*max-width 722px - Contacto-Form*/
+
+    .flex-contacto {
+        padding: 5px;
+ 
+    }
+
+    .cont-redes {
+        padding: 2%;
+    }
+
+    .cont-form {
+        padding: 2%;
+    }
+
+    .cont-redes .intro {
+        padding-bottom: 15px;
+        font-size: 13px;
+    }
+
+    .fa-ul a {
+        font-size: 13px;
+    }
+
+    .fa-ul button {
+        padding: 3%;
+    }
+
+
+}
+
+ /*MAX-WIDTH 600px*/
+ @media screen and (max-width: 600px) {
+
+/*max-width 600px - Nav*/
+
+header nav ul {
+    justify-content: center;
+}
+
+ header nav ul li {
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 17px;
+}
+
+/*max-width 600px - Hola*/
+
+.flex-hola {
+    padding: 10% 5% 0% 5%;
+    align-items: center;
+    min-height: 500px;
+}
+
+.hola-txt {
+    max-width: 300px;  
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.flex-hola h4 {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+button {
+    font-size: 15px;
+    padding: 4%;
+}
+
+/*max-width 600px - Conocimientos*/
+
+
+h3 {
+    font-size: 30px;
+}
+
+.intro {
+    font-size: 15px;
+}
+
+.flex-conoc div {
+    width: 180px;
+    height: 150px;
+
+}
+
+.flex-conoc i {
+    font-size: 60px;
+}
+
+/*max-width 600px - Cita*/
+
+
+.sec-cita p {
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.sec-cita h4 {
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+
+.sec-cita i {
+    font-size: 50px;
+}
+
+/*max-width 600px - Proyecto*/
+
+.flex-proy {
+    padding: 20px 0px;
+}
 
 }
 
 
+ /*MAX-WIDTH 480px*/
+ @media screen and (max-width: 480px) {
+
+    /*max-width 480spx - Nav*/
+
+    header nav ul li {
+        padding: 8px;
+        margin: 8px 2px;
+        font-size: 15px;
+    }
 
 
-/*MAX-WIDTH 480px*
+/*max-width 480px - Hola*/
 
-@media screen and(min-width: 320px) and (max-width: 480px) {
+.flex-hola {
+    padding: 25% 5% 10% 5%;;
+    flex-direction: column;
+}
 
-    /*max-width 480px - Nav* 
+
+h2 {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.flex-hola h4 {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+button {
+    font-size: 13px;
+    padding: 3%;
+}
+
+.foto{
+    padding-top: 60px;
+}
+
+/*max-width 480px - Conocimientos*/
+
+.flex-contacto {
+    flex-direction: column;
+    padding: 20px;
+ }
+
+ .flex-contacto div h3 {
+    text-align: center;
+ 
+}
+
+.cont-redes {
+    text-align: center;
+    width: 100%;
+}
+
+
+.cont-redes .intro {
+    padding-top: 0px;
+
+}
+
+.fa-ul li button {
+    display: flex;
+    align-self: flex-start;
+  
+}
+
+.fa-ul {
+    padding-bottom: 50px;
+}
+
+
+
+.cont-form{
+ 
+    width: 100%;
+}
+
+#submit {
+    font-size: 17px;
+    padding: 10px 25px;
+    margin-top: 25px;
+}
+
+ }
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+    /*MAX-WIDTH 480px*
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+
+    /*max-width 480px - Nav*
 
     header nav ul {
-        padding: 0px 10px;
+        padding: 1% 5%;
         justify-content: center;
+        
     }
 
     header nav ul li {
@@ -735,6 +970,42 @@ footer h6 {
         margin: 10px 0px;
         font-size: 15px;
     }
+}
+
+/*
+
+
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1% 5%;
+}
+
+
+
+header nav ul li :link {
+    color: #000000;
+    text-decoration: none;
+}
+
+header nav ul li :visited {
+    color: #000000;
+}
+
+header nav ul li :hover {
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+
+.boton-contacto {
+    border-radius: 30px;
+    background-color: #edecec;
+}
+
+
+
+
 
     /*max-width 480px - Hola*
 
