@@ -191,7 +191,7 @@ h3 {
     background-size: cover;
 }
 
-.cita{
+.cita {
     height: 90%;
 }
 
@@ -201,7 +201,7 @@ h3 {
     font-weight: bold;
     font-size: 55px;
     padding: 70px 0px 35px 0px;
-    
+
 }
 
 .sec-cita h4 {
@@ -225,7 +225,7 @@ h3 {
 
 
 
-.flex-proy{
+.flex-proy {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -270,7 +270,7 @@ h3 {
     padding: 10% 5%;
     min-height: 100vh;
     margin: 0%;
-    
+
 }
 
 
@@ -281,7 +281,7 @@ h3 {
     border: 1px solid;
     border-radius: 10px;
     padding: 10px;
-   
+
 }
 
 .flex-contacto div h3 {
@@ -338,9 +338,8 @@ h3 {
 
 /* FORM */
 
-.cont-form{
+.cont-form {
     padding: 3% 5%;
-    text-align: left;
     width: 50%;
 }
 
@@ -349,25 +348,26 @@ fieldset {
     padding: 10px 0px;
     border: none;
     border-color: var(--tipo-gris);
-   
-   
+
+
 }
 
 .input {
     display: flex;
     gap: 20px;
-    
+
 }
 
 .label {
     text-align: left;
     display: block;
     font-size: 20px;
-   
-    
+
+
 }
 
-.input1, .input2{
+.input1,
+.input2 {
     width: 50%;
 }
 
@@ -382,7 +382,7 @@ fieldset {
     padding: 10px;
     font-size: 15px;
     color: #ffffff;
- 
+
 }
 
 #email {
@@ -430,8 +430,9 @@ legend {
     margin-top: 25px;
     cursor: pointer;
     color: var(--tipo-gris);
-    
+
 }
+
 
 #submit:hover,
 #submit:focus {
@@ -447,7 +448,7 @@ footer {
     background-image: url("imagenes/footer-3.jpg");
     background-size: cover;
     height: 350px;
-   
+
 }
 
 
@@ -490,7 +491,7 @@ footer ul {
     margin: 35px;
     cursor: pointer;
     font-size: 20px;
-  
+
 }
 
 footer h6 {
@@ -534,7 +535,7 @@ footer h6 {
         font-size: 17px;
     }
 
- /*max-width 880px - Hola*/
+    /*max-width 880px - Hola*/
 
     .flex-hola {
         padding: 15% 5%;
@@ -562,14 +563,14 @@ footer h6 {
         font-size: 17px;
     }
 
-  
+
     #mujer {
         min-width: 200px;
         max-width: 400px;
     }
-    
 
-/*max-width 880px - Conocimientos*/
+
+    /*max-width 880px - Conocimientos*/
 
 
     h3 {
@@ -606,7 +607,7 @@ footer h6 {
 
     .sec-cita {
         padding: 7% 5%;
-        
+
     }
 
     .sec-cita p {
@@ -622,8 +623,8 @@ footer h6 {
     .sec-cita i {
         font-size: 60px;
     }
-  
-    
+
+
 
     /*max-width 880px - Proyectos*/
 
@@ -638,7 +639,7 @@ footer h6 {
 
     .flex-contacto {
         padding: 15px;
- 
+
     }
 
     .cont-redes .intro {
@@ -680,7 +681,7 @@ footer h6 {
 
     #message {
         min-height: 150px;
-    max-height: 200px;
+        max-height: 200px;
     }
 
     #submit {
@@ -689,7 +690,7 @@ footer h6 {
         margin-top: 20px;
     }
 
-   
+
     /*max-width 880px - Footer*/
 
 
@@ -697,25 +698,26 @@ footer h6 {
         font-size: 17px;
         max-height: 200px;
     }
+
     .foot1 {
         margin-bottom: 5%;
     }
-    
+
 
     footer h6 {
         padding-top: 90px;
-    } 
+    }
 }
 
 
- /*MAX-WIDTH 722px*/
+/*MAX-WIDTH 722px*/
 
-    @media screen and (max-width: 722px) {
+@media screen and (max-width: 722px) {
 
     /*max-width 722px - Proyecto*/
 
     .sec-proy {
-        padding: 10% 0%;
+        padding: 10% 5%;
     }
 
 
@@ -726,11 +728,11 @@ footer h6 {
         width: 200px;
     }
 
-   /*max-width 722px - Contacto-Form*/
+    /*max-width 722px - Contacto-Form*/
 
     .flex-contacto {
         padding: 5px;
- 
+
     }
 
     .cont-redes {
@@ -757,101 +759,177 @@ footer h6 {
 
 }
 
- /*MAX-WIDTH 600px*/
- @media screen and (max-width: 600px) {
+/*MAX-WIDTH 600px*/
+@media screen and (max-width: 600px) {
 
-/*max-width 600px - Nav*/
+    /*max-width 600px - Nav*/
 
-header nav ul {
-    justify-content: center;
+    header nav ul {
+        justify-content: center;
+    }
+
+    header nav ul li {
+        padding: 10px;
+        margin: 10px 5px;
+        font-size: 17px;
+    }
+
+    /*max-width 600px - Hola*/
+
+    .flex-hola {
+        padding: 10% 5% 0% 5%;
+        align-items: center;
+        min-height: 500px;
+    }
+
+    .hola-txt {
+        max-width: 300px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .flex-hola h4 {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 4%;
+    }
+
+    /*max-width 600px - Conocimientos*/
+
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .intro {
+        font-size: 15px;
+    }
+
+    .flex-conoc div {
+        width: 180px;
+        height: 150px;
+
+    }
+
+    .flex-conoc i {
+        font-size: 60px;
+    }
+
+    /*max-width 600px - Cita*/
+
+
+    .sec-cita p {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+
+    .sec-cita h4 {
+        padding-top: 10px;
+        font-size: 17px;
+    }
+
+
+    .sec-cita i {
+        font-size: 50px;
+    }
+
+    /*max-width 600px - Proyecto*/
+
+    .flex-proy {
+        padding: 20px 0px;
+    }
+
+
+    /*max-width 600px - Contacto*/
+
+    .flex-contacto {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .flex-contacto div h3 {
+        text-align: center;
+
+    }
+
+    .cont-redes {
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .cont-redes .intro {
+        padding-top: 0px;
+
+    }
+
+    .fa-ul li button {
+        display: flex;
+        align-self: flex-start;
+
+    }
+
+    .fa-ul {
+        padding-bottom: 50px;
+    }
+
+
+    .cont-form {
+
+        width: 100%;
+    }
+
+    #submit {
+        font-size: 17px;
+        padding: 10px 25px;
+        margin-top: 25px;
+        align-items: center;
+    }
+
+    /*max-width 600px - Footer*/
+
+    footer {
+        height: 250px;
+    }
+
+    .foot1 {
+        margin-bottom: 2%;
+    }
+
+    .foot1 li {
+        font-size: 15px;
+    }
+
+    .foot2 {
+        margin-bottom: 2%;
+    }
+
+    .foot2 i {
+        font-size: 15px;
+
+    }
+
+    footer h6 {
+        font-size: 12px;
+        padding-top: 30px;
+    }
+
+
 }
 
- header nav ul li {
-    padding: 10px;
-    margin: 10px 5px;
-    font-size: 17px;
-}
 
-/*max-width 600px - Hola*/
-
-.flex-hola {
-    padding: 10% 5% 0% 5%;
-    align-items: center;
-    min-height: 500px;
-}
-
-.hola-txt {
-    max-width: 300px;  
-}
-
-h2 {
-    font-size: 20px;
-}
-
-h1 {
-    font-size: 40px;
-}
-
-.flex-hola h4 {
-    font-size: 15px;
-    padding-bottom: 15px;
-}
-
-button {
-    font-size: 15px;
-    padding: 4%;
-}
-
-/*max-width 600px - Conocimientos*/
-
-
-h3 {
-    font-size: 30px;
-}
-
-.intro {
-    font-size: 15px;
-}
-
-.flex-conoc div {
-    width: 180px;
-    height: 150px;
-
-}
-
-.flex-conoc i {
-    font-size: 60px;
-}
-
-/*max-width 600px - Cita*/
-
-
-.sec-cita p {
-    font-size: 30px;
-    padding-top: 40px;
-}
-
-.sec-cita h4 {
-    padding-top: 10px;
-    font-size: 17px;
-}
-
-
-.sec-cita i {
-    font-size: 50px;
-}
-
-/*max-width 600px - Proyecto*/
-
-.flex-proy {
-    padding: 20px 0px;
-}
-
-}
-
-
- /*MAX-WIDTH 480px*/
- @media screen and (max-width: 480px) {
+/*MAX-WIDTH 480px*/
+@media screen and (max-width: 480px) {
 
     /*max-width 480spx - Nav*/
 
@@ -862,166 +940,20 @@ h3 {
     }
 
 
-/*max-width 480px - Hola*/
-
-.flex-hola {
-    padding: 25% 5% 10% 5%;;
-    flex-direction: column;
-}
-
-
-h2 {
-    font-size: 18px;
-}
-
-h1 {
-    font-size: 35px;
-}
-
-.flex-hola h4 {
-    font-size: 15px;
-    padding-bottom: 20px;
-}
-
-button {
-    font-size: 13px;
-    padding: 3%;
-}
-
-.foto{
-    padding-top: 60px;
-}
-
-/*max-width 480px - Conocimientos*/
-
-.flex-contacto {
-    flex-direction: column;
-    padding: 20px;
- }
-
- .flex-contacto div h3 {
-    text-align: center;
- 
-}
-
-.cont-redes {
-    text-align: center;
-    width: 100%;
-}
-
-
-.cont-redes .intro {
-    padding-top: 0px;
-
-}
-
-.fa-ul li button {
-    display: flex;
-    align-self: flex-start;
-  
-}
-
-.fa-ul {
-    padding-bottom: 50px;
-}
-
-
-
-.cont-form{
- 
-    width: 100%;
-}
-
-#submit {
-    font-size: 17px;
-    padding: 10px 25px;
-    margin-top: 25px;
-}
-
- }
-
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-    /*MAX-WIDTH 480px*
-
-    @media screen and (min-width: 320px) and (max-width: 480px) {
-
-    /*max-width 480px - Nav*
-
-    header nav ul {
-        padding: 1% 5%;
-        justify-content: center;
-        
-    }
-
-    header nav ul li {
-        padding: 10px;
-        margin: 10px 0px;
-        font-size: 15px;
-    }
-}
-
-/*
-
-
-
-header nav ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1% 5%;
-}
-
-
-
-header nav ul li :link {
-    color: #000000;
-    text-decoration: none;
-}
-
-header nav ul li :visited {
-    color: #000000;
-}
-
-header nav ul li :hover {
-    text-shadow: 1px 1px 5px #ffffff;
-}
-
-
-.boton-contacto {
-    border-radius: 30px;
-    background-color: #edecec;
-}
-
-
-
-
-
-    /*max-width 480px - Hola*
+    /*max-width 480px - Hola*/
 
     .flex-hola {
-        padding: 120px 30px 100px 30px;
+        padding: 25% 5% 10% 5%;
         flex-direction: column;
-        justify-content: center;
-        max-width: 480px;
     }
 
     .hola-txt {
-        max-width: 50%;
+        max-width: 500px;
+        min-width: 300px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     h1 {
@@ -1029,206 +961,194 @@ header nav ul li :hover {
     }
 
     .flex-hola h4 {
-        font-size: 14px;
-        padding-bottom: 25px;
-    }
-
-    button {
         font-size: 15px;
-        padding: 10px;
-        margin-top: 10px;
-    }
-
-    #mujer {
-        width: 350px;
-    }
-
-
-    /*max-width 480px - Conocimientos*
-
-    .sec-conoc {
-        padding: 70px 20px;
-    }
-
-    .sec-conoc .intro {
-        font-size: 15px;
-    }
-
-    h3 {
-        font-size: 30px;
         padding-bottom: 20px;
     }
 
-    .sec-conoc p {
-        margin-bottom: 10px;
+    button {
+        font-size: 13px;
+        padding: 3%;
     }
 
-    .flex-conoc {
-        padding: 10px;
+    .foto {
+        padding-top: 35px;
+    }
+
+    /*max-width 480px - Footer*/
+
+    footer {
+        height: 200px;
+    }
+
+    .foot1 {
+        margin-bottom: 1%;
+    }
+
+
+    footer h6 {
+        padding-top: 25px;
+    }
+
+}
+
+/*MAX-WIDTH 320px*/
+@media screen and (max-width: 320px) {
+
+    /*max-width 320spx - Nav*/
+
+    header nav ul li {
+        font-size: 12px;
+    }
+
+    /*max-width 320px - Hola*/
+
+    .hola-txt {
+        max-width: 270px;
+        min-width: 230px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .flex-hola h4 {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 2%;
+    }
+
+    .foto {
+        padding-top: 25px;
+    }
+
+
+
+    /*max-width 320px - Conocimientos*/
+
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .intro {
+        font-size: 12px;
+        padding: 0% 3%;
     }
 
     .flex-conoc div {
         width: 130px;
-        height: 110px;
-        margin: 10px;
-    }
+        height: 100px;
 
-    .flex-conoc div p {
-        padding-top: 10px;
-        font-size: 14px;
     }
-
 
     .flex-conoc i {
         font-size: 40px;
     }
 
-    /*max-width 480px - Cita*
+    /*max-width 320px - Cita*/
 
-    .sec-cita {
-        padding: 30px 30px;
-        height: 250px;
-    }
 
     .sec-cita p {
-        font-size: 25px;
+        font-size: 20px;
         padding-top: 20px;
     }
 
     .sec-cita h4 {
-        font-size: 17px;
-    }
-
-    .sec-cita i {
-        font-size: 40px;
-    }
-
-    /*max-width 480px - Proyecto*
-
-    .sec-proy {
-        padding: 70px 20px;
-    }
-
-    .sec-proy .intro{
         font-size: 15px;
     }
 
-    .sec-proy p {
-        padding-bottom: 10px;
+
+    .sec-cita i {
+        font-size: 30px;
     }
 
-    .flex-proy {
-        grid-template-columns: 1fr 1fr;
-        margin: 0% 17%;
-    }
+    /*max-width 320px - Proyecto*/
 
     .flex-proy div {
-        width: 130px;
         padding: 15px;
-        gap: 15px;
-        margin: 10px;
-        font-size: 14px;
+        gap: 10px;
+        font-size: 13px;
+        width: 150px;
     }
 
-    /*max-width 480px - Contacto*
-
-    .sec-cont {
-        padding: 70px 20px;
-    }
+    /*max-width 320px - Contacto*/
 
     .flex-contacto {
-        flex-direction: column;
-        padding: 0px 15px;
-    }
-
-    .flex-contacto div h3 {
-        text-align: center;
-        padding-top: 15px;
-    }
-
-    .cont-redes {
-        padding: 0px 0px;
+        padding: 10px;
     }
 
     .cont-redes .intro {
-        padding: 0px;
         font-size: 13px;
-        text-align: justify;
-    }
-
-    .fa-ul a {
-        font-size: 10px;
     }
 
     .fa-ul {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin: 20px 0px;
+        padding-bottom: 30px;
     }
 
-
-    /*max-width 480px - Form*
-
-    .input {
-        gap: 10px;
+    .fa-ul button {
+        padding: 3%;
     }
 
+    /*max-width 320px - Form*/
     .label {
-        font-size: 17px;
+        font-size: 15px;
     }
 
-    #surname, 
-    #name {
-    width: 100%;
-    height: 30px;
-    margin-bottom: 10px;
+    #name,
+    #surname {
+        max-height: 30px;
+        font-size: 13px;
+    }
+
+    #email {
+        max-height: 30px;
+        font-size: 13px;
+    }
+
+    #message {
+        min-height: 120px;
+        max-height: 170px;
+        font-size: 13px;
+    }
+
+    legend {
+        font-size: 13px;
+    }
+
+    #submit {
+        font-size: 15px;
+        padding: 8px 17px;
+        margin-top: 20px;
+    }
+
+    /*max-width 480px - Footer*/
+
+    footer {
+        height: 200px;
+    }
+
+    .foot1 li {
+        font-size: 11px;
+    }
+
+    .foot2 i {
+        font-size: 12px;
+
+    }
+
+    footer h6 {
+        padding-top: 15px;
+        font-size: 10px;
+    }
+
+
+
 }
-
-#email {
-    width: 100%;
-    height: 30px;
-    margin-bottom: 10px;
-}
-
-#message {
-    width: 100%;
-    height: 150px;
-}
-
-legend {
-    font-size: 12px;
-}
-
-#submit {
-    font-size: 15px;
-    margin: 15px 0px;
-}
-
-
-/*max-width 480px - Footer*
-
-footer {
-    background-color: aquamarine;
-    padding: 20px 50px;
-}
-
-.foot1 li {
-    font-size: 15px;
-}
-
-.foot2 {
-    padding: 10px 0px;
-    gap: 5px;
-}
-
-.foot2 i {
-    margin: 20px;
-    font-size: 15px;
-}
-
-footer h6 {
-    font-size: 12px;
-    padding-top: 20px;
-}
-*/
