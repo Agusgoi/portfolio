@@ -55,10 +55,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#hola">Hola</a></li>
-                <li><a href="#conocimientos">Conocimientos</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li class="boton-contacto"><a href="#contacto">Contacto</a></li>
+                <li tabindex="1" aria-hidden="true"><a href="#hola">Hola</a></li>
+                <li tabindex="2" aria-hidden="true"><a href="#conocimientos">Conocimientos</a></li>
+                <li tabindex="3" aria-hidden="true"><a href="#proyectos">Proyectos</a></li>
+                <li tabindex="4" aria-hidden="true" class="boton-contacto"><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -70,40 +70,40 @@
                 <h1>Agustina Goitea</h1>
                 <h4>Desarrolladora Frontend y bailarina de tango,<br>
                     en constante aprendizaje.</h4>
-                <button><a href="#proyectos">Mira lo que hago</a></button>
+                <button tabindex="5" aria-hidden="true"><a href="#proyectos">Mirá lo que hago</a></button>
             </div>
             <div class="foto" id="mujer">
-                <img src="imagenes/mujer2.png" alt="mujer" width="500px">
+                <img src="imagenes/mujer2.png" alt="foto de mujer" aria-labelledby="ilustracion de mujer" width="500px">
             </div>
         </section>
 
         <section id="conocimientos" class="sec-conoc">
-            <h3>Conocimientos</h3>
+            <h3 aria-hidden="true">Conocimientos</h3>
             <p class="intro">Estas son las herramientas que fui aprendiendo desde que decidí ser Programadora y, con
                 las que trabajo
                 en mis proyectos personales y laborales.</p>
             <div class="flex-conoc">
-                <div>
+                <div tabindex="6">
                     <i class="fa-brands fa-html5"></i>
                     <p>HMTL 5</p>
                 </div>
-                <div>
+                <div tabindex="7">
                     <i class="fa-brands fa-sass"></i>
                     <p>Sass</p>
                 </div>
-                <div>
+                <div tabindex="8">
                     <i class="fa-brands fa-css3-alt"></i>
                     <p>CSS 3</p>
                 </div>
-                <div>
+                <div tabindex="9">
                     <i class="fa-brands fa-js"></i>
                     <p>JavaScript</p>
                 </div>
-                <div>
+                <div tabindex="10">
                     <i class="fa-brands fa-react"></i>
                     <p>React</p>
                 </div>
-                <div>
+                <div tabindex="11">
                     <i class="fa-brands fa-git-alt"></i>
                     <p>GIT</p>
                 </div>
@@ -120,19 +120,19 @@
         </section>
 
         <section id="proyectos" class="sec-proy">
-            <h3>Proyectos</h3>
-            <p class="intro">Estos son los proyectos en los que fui trabajando en mi proceso de aprendizaje.</p>
+            <h3 aria-hidden="true">Proyectos</h3>
+            <p class="intro">Acá podes ver los proyectos en los que fui trabajando en mi proceso de aprendizaje.</p>
             <div class="flex-proy">
-                <div class="p"><img src="imagenes/p-1b.jpg" alt="proyecto-portolio" width="200px">Portfolio</div>
-                <div class="p"><img src="imagenes/p-2.jpg" alt="proyecto-memes" title="Proyecto en proceso"
+                <div tabindex="12" class="p"><img src="imagenes/p-1b.jpg" alt="proyecto-portolio" aria-labelledby="imagen del proyecto porfolio personal" width="200px">Portfolio</div>
+                <div tabindex="13" class="p"><img src="imagenes/p-2.jpg" alt="proyecto-memes" aria-labelledby="imagen del proyecto generador de memes" title="Proyecto en proceso"
                 width="200px">Generador de Memes</div>
-                <div class="p"><img src="imagenes/p-3.jpg" alt="proyecto-gastos" title="Proyecto en proceso"
+                <div tabindex="14" class="p"><img src="imagenes/p-3.jpg" alt="proyecto-gastos" aria-labelledby="imagen del proyecto controlador de gastos" title="Proyecto en proceso"
                 width="200px">Controlador de Gastos</div>
-                <div class="p"><img src="imagenes/p-4.jpg" alt="proyecto-reuniones" title="Proyecto en proceso"
+                <div tabindex="15" class="p"><img src="imagenes/p-4.jpg" alt="proyecto-reuniones" aria-labelledby="imagen del proyecto administrador de reuniones" title="Proyecto en proceso"
                 width="200px">Adm. de Reuniones</div>
-                <div class="p"><img src="imagenes/p-5.jpg" alt="proyecto-app" title="Proyecto en proceso"
+                <div tabindex="16" class="p"><img src="imagenes/p-5.jpg" alt="proyecto-app"  aria-labelledby="imagen del proyecto todo app" title="Proyecto en proceso"
                 width="200px">Todo App</div>
-                <div class="p"><img src="imagenes/p-6.jpg" alt="proyecto-peliculas" title="Proyecto en proceso"
+                <div tabindex="17" class="p"><img src="imagenes/p-6.jpg" alt="proyecto-peliculas" aria-labelledby="imagen del proyecto buscador de peliculas" title="Proyecto en proceso"
                 width="200px">Buscador de Películas</div>
             </div>
         </section>
@@ -140,42 +140,42 @@
         <section id="contacto" class="sec-cont">
             <div class="flex-contacto">
                 <div class="cont-redes">
-                    <h3>Contactame</h3>
-                    <p class="intro">Pueden escribir a mis redes o bien, completar el formulario.
-                        Todos sus
+                    <h3 aria-hidden="true">Contactame</h3>
+                    <p class="intro">Podes escribir a mis redes o bien, completar el formulario.
+                        Todos los
                         mensajes son bienvenidos, siempre estoy abierta a escuchar/leer consejos y, dispuesta a ayudar a
                         quienes necesiten una recomendación o ayuda con sus proyectos.</p>
                     <ul class="fa-ul">
-                        <li><button><a href="https://github.com/Agusgoi" target="_blank"><i id="icon3"
+                        <li tabindex="18"><button><a href="https://github.com/Agusgoi" target="_blank"><i id="icon3"
                         class="fa-brands fa-github-alt"></i>Agusgoi</a></button></li>
-                        <li><button><a href="https://www.linkedin.com/in/agustina-goitea/" target="_blank"><i id="icon"
+                        <li tabindex="19"><button><a href="https://www.linkedin.com/in/agustina-goitea/" target="_blank"><i id="icon"
                         class="fa-brands fa-linkedin-in"></i>/agustina-goitea</a></button></li>
-                        <li><button><a href="https://outlook.live.com/mail/" target="_blank"><i id="icon4"
+                        <li tabindex="20"><button><a href="https://outlook.live.com/mail/" target="_blank"><i id="icon4"
                         class="fa-solid fa-envelope"></i>agus.goitea@live.com.ar</a></button></li>
                     </ul>
                 </div>
                 <div class="cont-form">
-                    <h3>Escribime</h3>
+                    <h3 >Escribime</h3>
                     <form>
                         <fieldset>
                             <div class="input">
-                                <div class="input1">
+                                <div  class="input1">
                                     <label for="name" class="label">Nombre *</label>
-                                    <input id="name" type="text" name="name" required>
+                                    <input tabindex="21" id="name" type="text" name="name" required>
                                 </div>
-                                <div class="input2">
+                                <div  class="input2">
                                     <label for="surname" class="label">Apellido</label>
-                                    <input id="surname" type="text" name="surname">
+                                    <input tabindex="22" id="surname" type="text" name="surname">
                                 </div>
                             </div>
-                            <label for="email" class="label">Email *</label>
-                            <input id="email" type="text" name="email" required>
-                            <label for="message" class="label">Mensaje *</label>
-                            <textarea id="message" name="message" placeholder="Escribí aca tu mensaje..."
+                            <label  for="email" class="label">Email *</label>
+                            <input tabindex="23" id="email" type="text" name="email" required>
+                            <label  for="message" class="label">Mensaje *</label>
+                            <textarea tabindex="24" id="message" name="message" placeholder="Escribí aca tu mensaje..."
                             required></textarea>
                         </fieldset>
-                        <legend>* campos obligatorios</legend>
-                        <input id="submit" type="submit" value="Enviar" />
+                        <legend aria-hidden="true">* campos obligatorios</legend>
+                        <input tabindex="25" id="submit" type="submit" value="Enviar" />
                     </form>
                 </div>
             </div>
@@ -183,18 +183,18 @@
 
     </main>
 
-    <footer>
+    <footer aria-hidden="true">
         <div class="cont-footer">
         <ul class="foot1">
-            <li><a href="#hola">HOLA</a></li>
-            <li><a href="#conocimientos">CONOCIMIENTOS</a></li>
-            <li><a href="#proyectos">PROYECTOS</a></li>
-            <li><a href="#contacto">CONTACTO</a></li>
+            <li tabindex="26"><a href="#hola">HOLA</a></li>
+            <li tabindex="27"><a href="#conocimientos">CONOCIMIENTOS</a></li>
+            <li tabindex="28"><a href="#proyectos">PROYECTOS</a></li>
+            <li tabindex="29"><a href="#contacto">CONTACTO</a></li>
         </ul>
         <ul class="foot2">
-            <li><a href="https://github.com/Agusgoi" target="_blank"><i class="fa-brands fa-github-alt fa-lg"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/agustina-goitea/" target="_blank"><i class="fa-brands fa-linkedin-in fa-lg"></i></a></li>
-            <li><a href="https://outlook.live.com/mail/" target="_blank"><i class="fa-solid fa-envelope fa-lg"></i></a></li>
+            <li tabindex="30"><a href="https://github.com/Agusgoi" target="_blank"><i class="fa-brands fa-github-alt fa-lg"></i></a></li>
+            <li tabindex="31"><a href="https://www.linkedin.com/in/agustina-goitea/" target="_blank"><i class="fa-brands fa-linkedin-in fa-lg"></i></a></li>
+            <li tabindex="32"><a href="https://outlook.live.com/mail/" target="_blank"><i class="fa-solid fa-envelope fa-lg"></i></a></li>
         </ul>
         <h6>Hecho por mi <i class="fa-sharp fa-solid fa-heart"></i></h6>
     </div>
